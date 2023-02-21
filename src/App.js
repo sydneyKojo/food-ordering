@@ -24,7 +24,7 @@ function App() {
       id: 3,
       image:
         "https://www.freeiconspng.com/uploads/drink-fruits-juice-png-11.png",
-      name: "Juice X",
+      name: "Pomegranate Juice",
       restaurant: "Health Home",
       price: 15.99,
     },
@@ -35,6 +35,38 @@ function App() {
       name: "Carrot Cleanse",
       restaurant: "Health Home",
       price: 12.55,
+    },
+    {
+      id: 13,
+      image:
+        "https://media.istockphoto.com/id/511622035/photo/heallthy-organic-fruit-salad.jpg?s=612x612&w=0&k=20&c=Nl3vuD8QLVCWCzFqiHBvRQzeoY2p0chmhzuPsW2hNBA=",
+      name: "Fruit Salad",
+      restaurant: "Salad Shop",
+      price: 50.59,
+    },
+    {
+      id: 14,
+      image:
+        "https://media.istockphoto.com/id/507155407/photo/healthy-homemade-fried-rice.jpg?s=612x612&w=0&k=20&c=WvNGk-7iwrBmsXH1QrrT7vaCTuB2Nij57mQey0VMohU=",
+      name: "Fried Rice",
+      restaurant: "Starbites",
+      price: 149.59,
+    },
+    {
+      id: 15,
+      image:
+        "https://media.istockphoto.com/id/840599504/photo/spring-rolls.jpg?s=612x612&w=0&k=20&c=wByMigy56ioHSR7QzXFNNAbgiso8xlAqPfAD35A6YGA=",
+      name: "Spring Rolls",
+      restaurant: "Sweet Roses Inc.",
+      price: 149.59,
+    },
+    {
+      id: 16,
+      image:
+        "https://media.istockphoto.com/id/585303220/photo/sprinkles.jpg?s=612x612&w=0&k=20&c=WOiT7UM38wLFUr6OV34O3uvN6e4_aoIAaypkgG_7ze0=",
+      restaurant: "Cupcake Boutique",
+      name: "6 Cupcakes",
+      price: 349,
     },
   ];
   return (
@@ -120,7 +152,7 @@ function App() {
         <div className="h-1/6 border-t-2 border-neutral-200 bottom-0 bg-zinc-50 rounded-b-xl left-0 w-full p-3 text-center flex flex-row shadow-lg">
           <button className="m-auto flex-grow flex flex-col p-auto items-center">
             <MaterialIcon
-              icon="shopping_cart"
+              icon="restaurant_menu"
               size="30"
               color={colorPalette.amber.A700}
             />
@@ -128,14 +160,14 @@ function App() {
           </button>
           <button className="m-auto flex-grow flex flex-col p-auto items-center">
             <MaterialIcon
-              icon="shopping_cart"
+              icon="storefront"
               size="30"
             />
             <span className="font-semibold m-1 text-center text-sm text-gray-500">Food Joints</span>
           </button>
           <button className="m-auto flex-grow flex flex-col p-auto items-center">
             <MaterialIcon
-              icon="shopping_cart"
+              icon="list"
               size="30"
             />
             <span className="font-semibold m-1 text-center text-sm text-gray-500">Orders</span>
